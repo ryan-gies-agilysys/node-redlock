@@ -1,5 +1,5 @@
 {
-  "name": "redlock",
+  "name": "@agilysys-bolt/redlock",
   "version": "v5.0.0-beta.2",
   "description": "A node.js redlock implementation for distributed redis locks",
   "license": "MIT",
@@ -16,7 +16,8 @@
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js"
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "keywords": [
